@@ -140,7 +140,6 @@ void GridHash::getNodes(const Boid *boid, HashNode *outNodes[]) const
 				}
 				outNodes[outIdx] = current;
 				outIdx += 1;
-				
 
 				tmp.x += 1;
 			}

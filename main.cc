@@ -187,7 +187,7 @@ int main()
 			calcForce(&boids[i], &gridHash, &settings);
 		}
 		// implicit barrier
-		
+
 		// advance boids in parallel
 		#pragma omp parallel for
 		for(uintptr_t i = 0; i < nBoids; ++i) {

@@ -29,7 +29,7 @@ class Painter
 		glShadeModel(GL_SMOOTH);
 		glClearColor(0, 0, 0, 0);
 		glEnable(GL_DEPTH_TEST);
-		
+
 		//glEnable(GL_POINT_SMOOTH);
 		//glEnable(GL_LINE_SMOOTH);
 		glPointSize(1);
